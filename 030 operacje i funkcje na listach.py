@@ -55,3 +55,5 @@ print("Lista4 wygląda tak:", lista4)
 print("teraz odwracamy kolejność elementów listy4")
 lista4.reverse()
 print(lista4)
+
+#zmieniłem
