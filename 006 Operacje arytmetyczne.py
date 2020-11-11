@@ -11,5 +11,5 @@ print("wartość przeciwna -x", -x)           # przeciwna = -3
 print("wartość bezwzględna", abs(-x))       # wartność bezwzględna
 print(int(3.9))                             # wartość całkowita 3
 print(int(-3.9))                            # wartość całkowita - 3
-print(float(3))                             # wartość ...
+print(float(3))                             # wartość zmiennoprzecinkowa
 print(x ** y)                               # potęgowanie
