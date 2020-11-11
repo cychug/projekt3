@@ -1,2 +1,2 @@
-# projekt1
-# wprowadziałem tu zmianay testowe
+# projekt3
+# tu są moje programy i dokumentacja do nauki python'a
