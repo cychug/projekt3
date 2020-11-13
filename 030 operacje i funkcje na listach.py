@@ -41,17 +41,17 @@ print("To jest lista1 posortowana malejąco", lista1)
 print(min(lista1))
 print("Maksymalny element listy", lista1, max(lista1))  # maksymalny element listy
 print("Minimalny element listy", lista1, min(lista1))   # minimalny element listy
-print("Element 1 wystąpił w liście:", lista1, lista1.count(1), "razy")  # liczymy ile razy wystąpił
+print("Element 1 wystąpił w liście:", lista1, lista1.count(1), "razy")  # liczymy ile razy wystąpił element
 print("Oto lista1", lista1, "z której usunę ostatni element.")
-lista1.pop()
+lista1.pop()                    # usuwa ostatni element sisty
 print(lista1)
 print("Teraz usunę z listy pierwszy napotkany element 5")
-lista1.remove(5)
+lista1.remove(5)                # usuwa podany element
 print(lista1)
 print("Czyszczę listę1")
-lista1.clear()
+lista1.clear()                  # wyczyści całą listę
 print("Teraz lista4 po czyszczeniu", lista1)
 print("Lista4 wygląda tak:", lista4)
 print("teraz odwracamy kolejność elementów listy4")
-lista4.reverse()
+lista4.reverse()                # ustawi odwrotną kolejność listy (bez sortowania)
 print(lista4)
