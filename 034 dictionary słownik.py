@@ -10,7 +10,7 @@ print(pokoje[69])
 pokoje[50] = 'Anna Nowak'           # dodajemy do słownika pod klucz 50 'Anna Nowak' - jeden element
 print(pokoje)
 print(pokoje.get(49))               # drukujemy klucz 49
-pokoje.update({400: "Jasiu Kowalski", 410: "Małgorzata Cebaska"}) # inny sposób dodania, mozna dodać więcej na raz
+pokoje.update({400: "Jasiu Kowalski", 410: "Małgorzata Cebaska"})  # inny sposób dodania, mozna dodać więcej na raz
 print(pokoje)
 del(pokoje[410])                     # kasujemy wybrany klucz
 print(pokoje)
