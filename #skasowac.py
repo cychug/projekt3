@@ -1,2 +1,5 @@
-numbers = [1, 2, 3, 4, 5, 6]
-print(numbers[3])
+pokoje = {1: 'Krzysiek', 2: 'Ania'}
+print(pokoje)
+pokoje.pop(2)
+print(pokoje)
+
