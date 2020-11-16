@@ -8,7 +8,7 @@
 # krotki        krotka = (1, 42, 12, -4)
 # słowniki      pokoje = {49: 'Krzysztof Abacki', 69: 'Marek Bebacki'}
 # zbiory        A = {1, 4, 20, -4, 20}
-# # BONUS: | (suma zbiorów), & (wspólne), - (odemjmowanie od A odejmi B), ^ - ksor (wyklucza wspólne wartości)
+# # BONUS: | (suma zbiorów bez powtarzalnych elementów - tylko raz), & (wspólne), - (odemjmowanie od A odejmi B), ^ - ksor (wyklucza wspólne wartości)
 
 # A.add(1)       dodanie 1
 # A.discard(7)   usunięcie 7

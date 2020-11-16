@@ -6,4 +6,4 @@ while i < 3:
         wynik += x
         i += 1
     continue
-print("Wynik dodawania:", wynik)
+print("Wynik dodawania trzech kolejnych liczb parzystych:", wynik)
