@@ -11,3 +11,7 @@ print(numbers)          # [2, 5, 2, 11, 10, 15, 6]
 numbers.append(4)
 print(numbers)          # [2, 5, 2, 11, 10, 15, 6, 4]
 print(len(numbers))     # 8
+
+print("######### Wyświetlenie wartości z listy")
+for wartosc in numbers:
+    print(wartosc)
