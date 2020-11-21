@@ -36,8 +36,7 @@ people2 = [
 for record in people2:              # dla kadego rekordu (który jest słownikiem) w liscie peopple2 wykonaj pętlę poniej
     for key in record:              # dla kadego klucza w rekordzie
         print(key, record[key])     # wypisz nazwę klucza oraz jego wartość
-
-
+       
 # WYŚWIETLENIE WARTOŚCI SŁOWNIKAÓW ZE ZBIORU SŁOWNIKÓW
 people1 = {
             'id1': {'name': 'Krzysiek', 'age': 45, 'sex': 'male'},
