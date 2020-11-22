@@ -1,12 +1,10 @@
 errorCount = 0
-logs = [
-        ('HTTP_OK', 'GET /index.html'),
+logs = [('HTTP_OK', 'GET /index.html'),
         ('HTTP_OK', 'GET /index.html'),
         ('HTTP_NOT_FOUND', 'GET /index.html'),
         ('HTTP_OK', 'GET /index.html'),
         ('HTTP_OK', 'GET /index.html'),
-        ('HTTP_NOT_FOUND', 'GET /index.htmll')
-       ]
+        ('HTTP_NOT_FOUND', 'GET /index.htmll')]
 print(logs[1][1])           # wybór konkretnego elementu krotki z listy
 
 # 1 wersja

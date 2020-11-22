@@ -1,4 +1,3 @@
-n = 1
 list1 = []
 while(True):
     action = (input("Select an action + add, - remove, / serach, other - end: "))
@@ -20,4 +19,3 @@ while(True):
     else:
         print("End")
         break
-    
