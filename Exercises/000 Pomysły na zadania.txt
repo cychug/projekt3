@@ -1,10 +1,11 @@
-wypisanie wszystkich parzystych liczb od 1 do 100
-Odgadywanie wylosowanej liczby, i danie moźliwości jej odgadnięcia przez uytwkonika
-Kamień, papier, nozyce
+# wypisanie wszystkich parzystych liczb od 1 do 100
+# Odgadywanie wylosowanej liczby, i danie moźliwości jej odgadnięcia przez uytwkonika
+# Kamień, papier, nozyce
 Przeliczanie jednostek
 Liczenie słów i znaków (lub liter - bardziej skomplikowane) w tekscie
 Zapisywanie zawartości katalogu do pliku formacie Jason (wielkość, nazwa, data utworzenia) standard komunikacji REST/API
 quiz - milionerzy (w jedny pliku zapisujemy pytania i odpowiedzi) Jason. 15 pytań, błędna wyklucza z gry. Na koniec wynik...
 Rozliczanie wydatków, wspólny rachunek, kazdy daje po parę zł i trzeba to rozliczyćgry. Dodać wszystkie wydatki, podzielić przez ilość osób i sprawdzić komu oddać  a kto ma dodaćgry. Uwaga z zaokrąglaniem!
 Rozliczanie wydatków własnych. Kady miesiąc oddzielnym plikiem. 
+Nauka słówek i fraz angielkich
 
