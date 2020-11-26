@@ -4,7 +4,3 @@ for item in even_number_generator:                      # dostaenie się do kade
     print(item)
     suma = suma + item ** 2
 print(suma)
-
-# even_number_generator = (item for item in range(6)) 
-for item in even_number_generator:                      # dostaenie się do kadego z elementów
-    print("Jeszcze raz", item)
