@@ -1,5 +1,5 @@
 # projekt3
-tu są moje programy i dokumentacja do nauki python'as
+Programy i pliki do nauki phyton.
 
 ## Rozdział 1 u jest akapit
 * Podrozdział A
@@ -10,4 +10,4 @@ tu są moje programy i dokumentacja do nauki python'as
 ## Rozdział 2
 
 
-# Rozdział 3
+## Rozdział 3
