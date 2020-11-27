@@ -16,5 +16,5 @@ for item in even_number_generator:      # dostaenie się do kadego z elementów
 even_number = [element for element in range(40) if (element % 2 == 0)]
 print("Stary sposób: ", even_number)
 
-print("Zajęctość pamięci even_number_generator : ", sys.getsizeof(even_number_generator))     # ile miejsca - mniej
-print("Zajęctość pamięci even_numebr: ", sys.getsizeof(even_number))                          # ile miejsa
+print("Zajęctość pamięci even_number_generator TEN SUPER POMYSŁ : ", sys.getsizeof(even_number_generator))     # ile miejsca - mniej
+print("Zajęctość pamięci even_numebR LISTA: ", sys.getsizeof(even_number))                          # ile miejsa
