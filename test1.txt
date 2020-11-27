@@ -1,2 +1,3 @@
 1 zmiana w b1
 2 zmiana w b2
+3 zmiana 3 w b2
