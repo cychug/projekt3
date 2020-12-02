@@ -3,6 +3,7 @@ podzielne przez 7 nie przez 5 od 100 do 470
 Liczba podzielna przez 7 to jej wielokrotność: 7, 14, 21, ...
 Liczba podzielna przez 5 to jej wielokrotność: 5, 10, 15, 20, ...
 """
+import sys
 
 # GENERATOR - potem mozemy przechodzić przez te liczy ale nie będziemy mieli zapisanych nigdzie! NIE BĘDZIEMY MOGLI ICH PÓŹNIEJ WYKORZYTAĆ W PROGRAMIE. ONE SĄ CHWILOWE.
 zbiorPodzielne7Nie5 = (
@@ -12,7 +13,7 @@ zbiorPodzielne7Nie5 = (
 )
 for podzielna in zbiorPodzielne7Nie5:
     print(podzielna)
-
+print("Zajęctość pamięci generator TEN SUPER POMYSŁ : ", sys.getsizeof(zbiorPodzielne7Nie5))     # ile miejsca - mniej
 
 # wyraenie zbioru-  GENERATOR ZBIORU - mozemy potem operować na tychm zbiorze, suma, koniunkcja
 zbiorPodzielne7Nie5 = {
@@ -22,6 +23,8 @@ zbiorPodzielne7Nie5 = {
     if (podzielna % 5 != 0)
 }
 print("Zbiór", zbiorPodzielne7Nie5)
+print("Zajęctość pamięci zbiór : ", sys.getsizeof(zbiorPodzielne7Nie5))     # ile miejsca - mniej 
+
 
 # wyraenie listowe - GENERATOR LISTY - moemy potem operować na liście i będziemy mieli jeszcze kolejność
 zbiorPodzielne7Nie5 = [
@@ -30,10 +33,7 @@ zbiorPodzielne7Nie5 = [
     if (podzielna % 7 == 0) and (podzielna % 5 != 0)
 ]
 print("Lista", zbiorPodzielne7Nie5)
-
-
-
-
+print("Zajęctość pamięci lista : ", sys.getsizeof(zbiorPodzielne7Nie5))     # ile miejsca - mniej 
 
 
 # drugi sposób {} SŁOWNIK
