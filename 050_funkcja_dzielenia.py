@@ -29,3 +29,16 @@ def potegowanie(a, b):
 
 
 print(potegowanie(2, 3))
+
+
+def is_equal(arg1, arg2):
+    if (arg1 == arg2):
+        return True
+    return False
+
+
+print(is_equal(54, 23))
+
+is_equal(54, 23)
+
+# wywołanie funkcji: is_equal(54,23);
