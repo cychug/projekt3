@@ -19,3 +19,4 @@ def poleTrapzu(a, b, h):
 
 def poleKola(r):
     return(math.pi * r)
+    
