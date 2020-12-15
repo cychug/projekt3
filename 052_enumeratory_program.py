@@ -5,7 +5,6 @@
 # zastosuj zawsze gdy uzytkownik ma coś wybrać : kolor, dni tygodnia.
 
 from enum import IntEnum
-
 import figury
 
 Menu_Figury = IntEnum('Menu_Figury', 'Prostokat, Kwadrat, Trojkat, Trapez, Kolo')   # enumerata
@@ -43,8 +42,6 @@ while(True):
         print("Pole koła wynosi: ", figury.poleKola(r))
     else:
         break
-
-
 
 """
 # LISTA

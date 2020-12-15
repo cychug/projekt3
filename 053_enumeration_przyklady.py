@@ -11,7 +11,7 @@ countries = ('Polska', 'Niemcy', 'Grecja', 'Szwecja', 'Rosja')
 for i, country in enumerate(countries):
     print(i, country)
 
-# struktury złozone
+# struktury złozone - 
 persons = [('Dawid', 25), ('Jan', 23), ('Marcin', 22)]
 
 for i, person in enumerate(persons):

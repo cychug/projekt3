@@ -1,4 +1,10 @@
-# program policzy sumę od 1 do podanej liczby przez uzytkownika
+# mierzenie wydajności programu
+# licznik wydajności, zwraca wartość do mierzenia krótkich odcinków czasu
+
+import time
+
+
+# obliczenie sumy przy pomocy pętli
 
 
 def sumuj_do1(a):
@@ -38,8 +44,19 @@ def sumuj_do5(liczba):
     return (1 + liczba) / 2 * liczba
 
 
-print(sumuj_do1(25))
-print(sumuj_do2(25))
-print(sumuj_do3(25))
-print(sumuj_do4(25))
-print(sumuj_do5(25))
+# tu się dzieje magia wywołania funkcji przez funkcję z argumentem
+
+def function_performace(func, argument):
+    start = time.perf_counter()
+    func(argument)
+    end = time.perf_counter()
+    return end - start
+
+
+argument = 10000
+
+print(function_performace(sumuj_do1, argument))
+print(function_performace(sumuj_do2, argument))
+print(function_performace(sumuj_do3, argument))
+print(function_performace(sumuj_do4, argument))
+print(function_performace(sumuj_do5, argument))
