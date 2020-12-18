@@ -21,4 +21,4 @@ def show_message(message):
     print(message)
 
 
-function_performace(show_message, "Message")
+function_performace(show_message, "This is message")

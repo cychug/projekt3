@@ -1,1 +1,0 @@
-plik na masterze.
