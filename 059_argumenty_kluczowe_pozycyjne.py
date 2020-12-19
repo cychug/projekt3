@@ -5,7 +5,7 @@
 """
 
 
-def greet(name, message="Hello", separator=" "):
+def greet(name, message="Hello", separator=" "):    # tu pierwszy jest wymagan, 2 i 3 nie bo mają wartości domyślne
     print(message, name, sep=separator)
 
 

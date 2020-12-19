@@ -12,3 +12,5 @@ print(len(t))
 
 krotka = ('Krzysiek', 45, 'Abacki')
 print(krotka)
+number = 5
+krotka = tuple(range(number))
