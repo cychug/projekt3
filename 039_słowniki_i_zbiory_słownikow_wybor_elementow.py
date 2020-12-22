@@ -12,7 +12,6 @@ print()
 for key in people1:
     print(key, people1[key])
 
-
 # lista słowników - z uwagi na czytelność korzysta sie z nich najczęściej
 people2 = [
             {'id': 'qwertyuiop', 'name': 'Krzysiek', 'age': 45, 'sex': 'male'},

@@ -7,7 +7,6 @@ def dzielenie(a, b):
 
 print(dzielenie(2, 0))
 
-
 # teraz wykorzystamy wyjsice z funkcji przy probie dzielenie przez 0 - zostanie zwrócona wartość None, która = FALSE
 
 
