@@ -18,6 +18,7 @@ def function_performace(func, how_many_times=1, *arg):
     sum = 0
     print(arg[0])   # to wyświetli co jest pod 1 argumentem
     print(arg[1])   # to wyświetli co jest pod 2 argumentem
+    print(how_many_times)
     for i in range(0, how_many_times):  # od 0 do how_many_times
         start = time.perf_counter()
         func(*arg)
