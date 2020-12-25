@@ -6,7 +6,7 @@ def poleProstokata(a, b):
 
 
 def poleKwadratu(a):
-    return(a ** a)
+    return(a * a)
 
 
 def poleTrojkata(a, h):
