@@ -1,3 +1,6 @@
+# nie korzysta się ze zmiennych globalnych w ten sposób. To tylko po to abym wiedział o co chodzi.
+
+
 def add():
     c = 5   # zakres zmiennej c jest lokalny, tylko w obrębie tej funkcji
     print(c)
@@ -16,3 +19,13 @@ def add1():
 
 
 add1()
+
+
+def add(c, amount=1):
+    c = c + amount          # to c jest lokalne, pobieramy 1 + amount też 1
+    print(c)                # drukujemy c lokalne czyli 2
+
+
+c = 1                       # to c jest globalne
+add(c)                      # wywoł. fun z c globalnym = 1
+print(c)                    # drukujemy c globlane czyli 1
