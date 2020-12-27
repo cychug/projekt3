@@ -8,12 +8,11 @@ def replaceString(text):
     return newText4
 
 
-with open("/Users/kwisniewski/Desktop/projekt3/Divide/divide.csv") as inFile:
+with open("/Users/kwisniewski/Desktop/projekt3/Divide/input.csv") as inFile:
     for line in inFile:
         line = line.strip()
-        print(type(line))
         print(replaceString(line))
-        with open("/Users/kwisniewski/Desktop/projekt3/Divide/text2.csv", 'a') as outputFile:
+        with open("/Users/kwisniewski/Desktop/projekt3/Divide/output.csv", 'a') as outputFile:
             outputFile.write(replaceString(line))
             outputFile.write("\n")
 
