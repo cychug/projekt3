@@ -1,6 +1,15 @@
-a = 5
-print(a)
+import random
 
-cars = ["Ford", "Volvo", "BMW"]
+for x in range(10):         # przjdzie przez 10 elementów od x = 0 do 9
+    print(x, random.random())
 
-print(cars)
+print("\n")
+
+for x in range(10):
+    print(x, random.uniform(0, 100))
+
+print("\n")
+
+for x in range(10):
+    print(x, random.randint(0, 4))
+

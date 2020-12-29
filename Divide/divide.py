@@ -1,6 +1,6 @@
 
 
-def replaceString(text):
+def replace_string(text):
     newText1 = text.replace("\"", "")
     newText2 = newText1.replace(" ", ",", 1)
     newText3 = newText2.replace(" - ", "-")
@@ -11,7 +11,7 @@ def replaceString(text):
 with open("input.csv") as inFile:
     for line in inFile:
         line = line.strip()
-        print(replaceString(line))
+        print(replace_string(line))
         with open("output.csv", 'a') as outputFile:
-            outputFile.write(replaceString(line))
+            outputFile.write(replace_string(line))
             outputFile.write("\n")
